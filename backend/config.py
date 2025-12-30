@@ -4,8 +4,8 @@ from typing import Optional
 class Settings(BaseSettings):
     """Application settings"""
     
-    # OpenAI Configuration
-    openai_api_key: str
+    # Google Gemini Configuration
+    gemini_api_key: str = "your_gemini_api_key_here"
     
     # JWT Configuration
     secret_key: str
